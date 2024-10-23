@@ -1,8 +1,8 @@
 build:
-	go build -o ./modularBlockchain
+	go build -o ./ModularBlockchain
 
 run: build
-	./modularBlockchain
+	./ModularBlockchain
 
 test:
 	go test -v ./...
